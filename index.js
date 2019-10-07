@@ -8,7 +8,7 @@ bot.on("guildMemberAdd", user =>{
 });
 
 bot.on('message', msg => {
-    if (msg.content === prefix + 'help') {
+    if (msg.content === 'help') {
       msg.reply('pong');
     }
   });
